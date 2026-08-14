@@ -1,8 +1,8 @@
-window.ATTACKFORGE_DATA = {
+window.SCAN_DATA = {
   "projects": [
     {
-      "ProjectName": "USGCI 2026 - IDS_TFB_DI",
-      "ProjectCode": "USGCI 2026 - IDS_TFB_DI",
+      "ProjectName": "GCI 2026 - IDS_Review",
+      "ProjectCode": "GCI 2026 - IDS_Review",
       "ProjectStatus": "Completed",
       "TestingProgress": "0%",
       "TestCompleted": "Yes",
@@ -26,8 +26,8 @@ window.ATTACKFORGE_DATA = {
       "TotalAssets": 3
     },
     {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "ProjectCode": "SI 2026 - Network_Perimeter",
+      "ProjectName": "NET 2026 - Network_Perimeter",
+      "ProjectCode": "NET 2026 - Network_Perimeter",
       "ProjectStatus": "Completed",
       "TestingProgress": "0%",
       "TestCompleted": "Yes",
@@ -51,8 +51,8 @@ window.ATTACKFORGE_DATA = {
       "TotalAssets": 5
     },
     {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "ProjectCode": "PCI 2026 - CardData_ENV",
+      "ProjectName": "PAY 2026 - Payment_Systems",
+      "ProjectCode": "PAY 2026 - Payment_Systems",
       "ProjectStatus": "Completed",
       "TestingProgress": "0%",
       "TestCompleted": "Yes",
@@ -76,8 +76,8 @@ window.ATTACKFORGE_DATA = {
       "TotalAssets": 7
     },
     {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "ProjectCode": "ROPE 2026 - ExtApp_Review",
+      "ProjectName": "APP 2026 - ExtApp_Review",
+      "ProjectCode": "APP 2026 - ExtApp_Review",
       "ProjectStatus": "Completed",
       "TestingProgress": "0%",
       "TestCompleted": "Yes",
@@ -103,8 +103,8 @@ window.ATTACKFORGE_DATA = {
   ],
   "findings": [
     {
-      "ProjectName": "USGCI 2026 - IDS_TFB_DI",
-      "ProjectCode": "USGCI 2026 - IDS_TFB_DI",
+      "ProjectName": "GCI 2026 - IDS_Review",
+      "ProjectCode": "GCI 2026 - IDS_Review",
       "ProjectStartDate": "2026-07-27",
       "ProjectEndDate": "2026-08-01",
       "FindingName": "iOS Snapshot Caching May Disclose Sensitive Information on Loss of Device",
@@ -118,7 +118,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-08-20T19:58:38.204Z",
       "FindingID": "6a7395ee516626d4a302c038",
-      "AlternateID": "USGCI 2026 - IDS_TFB_DI-1",
+      "AlternateID": "GCI 2026 - IDS_Review-1",
       "CVSSv3": 9.1,
       "ReadyForRetest": "No",
       "Created": "2026-08-05",
@@ -126,8 +126,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 2
     },
     {
-      "ProjectName": "USGCI 2026 - IDS_TFB_DI",
-      "ProjectCode": "USGCI 2026 - IDS_TFB_DI",
+      "ProjectName": "GCI 2026 - IDS_Review",
+      "ProjectCode": "GCI 2026 - IDS_Review",
       "ProjectStartDate": "2026-07-27",
       "ProjectEndDate": "2026-08-01",
       "FindingName": "iFrame Overlay Attack via Unvalidated Redirect",
@@ -141,7 +141,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-09-04T20:06:46.946Z",
       "FindingID": "6a7397d6516626d4a302c0b3",
-      "AlternateID": "USGCI 2026 - IDS_TFB_DI-2",
+      "AlternateID": "GCI 2026 - IDS_Review-2",
       "CVSSv3": 7.5,
       "ReadyForRetest": "No",
       "Created": "2026-08-05",
@@ -149,8 +149,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 1
     },
     {
-      "ProjectName": "USGCI 2026 - IDS_TFB_DI",
-      "ProjectCode": "USGCI 2026 - IDS_TFB_DI",
+      "ProjectName": "GCI 2026 - IDS_Review",
+      "ProjectCode": "GCI 2026 - IDS_Review",
       "ProjectStartDate": "2026-07-27",
       "ProjectEndDate": "2026-08-01",
       "FindingName": "Hardcoded Credentials in Mobile Application Binary",
@@ -164,7 +164,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-08-20T10:00:00.000Z",
       "FindingID": "6a7395ee516626d4a302c039",
-      "AlternateID": "USGCI 2026 - IDS_TFB_DI-3",
+      "AlternateID": "GCI 2026 - IDS_Review-3",
       "CVSSv3": 9.8,
       "ReadyForRetest": "No",
       "Created": "2026-08-05",
@@ -172,8 +172,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 3
     },
     {
-      "ProjectName": "USGCI 2026 - IDS_TFB_DI",
-      "ProjectCode": "USGCI 2026 - IDS_TFB_DI",
+      "ProjectName": "GCI 2026 - IDS_Review",
+      "ProjectCode": "GCI 2026 - IDS_Review",
       "ProjectStartDate": "2026-07-27",
       "ProjectEndDate": "2026-08-01",
       "FindingName": "finalize() Method Without super.finalize()",
@@ -187,7 +187,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-11-03T20:09:42.567Z",
       "FindingID": "6a739886516626d4a302c0dd",
-      "AlternateID": "USGCI 2026 - IDS_TFB_DI-4",
+      "AlternateID": "GCI 2026 - IDS_Review-4",
       "CVSSv3": 3.1,
       "ReadyForRetest": "Yes",
       "Created": "2026-08-05",
@@ -195,8 +195,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 0
     },
     {
-      "ProjectName": "USGCI 2026 - IDS_TFB_DI",
-      "ProjectCode": "USGCI 2026 - IDS_TFB_DI",
+      "ProjectName": "GCI 2026 - IDS_Review",
+      "ProjectCode": "GCI 2026 - IDS_Review",
       "ProjectStartDate": "2026-07-27",
       "ProjectEndDate": "2026-08-01",
       "FindingName": "Insecure Data Storage in SharedPreferences",
@@ -210,7 +210,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-10-11T12:00:00.000Z",
       "FindingID": "6a7395ee516626d4a302c040",
-      "AlternateID": "USGCI 2026 - IDS_TFB_DI-5",
+      "AlternateID": "GCI 2026 - IDS_Review-5",
       "CVSSv3": 5.5,
       "ReadyForRetest": "No",
       "Created": "2026-08-05",
@@ -218,8 +218,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 1
     },
     {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "ProjectCode": "SI 2026 - Network_Perimeter",
+      "ProjectName": "NET 2026 - Network_Perimeter",
+      "ProjectCode": "NET 2026 - Network_Perimeter",
       "ProjectStartDate": "2026-07-14",
       "ProjectEndDate": "2026-07-25",
       "FindingName": "Unencrypted Sensitive Data Transmission over HTTP",
@@ -233,7 +233,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-08-14T09:00:00.000Z",
       "FindingID": "7b8406ff627737e5b413d149",
-      "AlternateID": "SI 2026 - Network_Perimeter-1",
+      "AlternateID": "NET 2026 - Network_Perimeter-1",
       "CVSSv3": 9.4,
       "ReadyForRetest": "No",
       "Created": "2026-07-26",
@@ -241,8 +241,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 4
     },
     {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "ProjectCode": "SI 2026 - Network_Perimeter",
+      "ProjectName": "NET 2026 - Network_Perimeter",
+      "ProjectCode": "NET 2026 - Network_Perimeter",
       "ProjectStartDate": "2026-07-14",
       "ProjectEndDate": "2026-07-25",
       "FindingName": "Default Credentials on Network Device Management Interface",
@@ -256,7 +256,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 5,
       "SLADays": "2026-08-06T09:00:00.000Z",
       "FindingID": "7b8406ff627737e5b413d150",
-      "AlternateID": "SI 2026 - Network_Perimeter-2",
+      "AlternateID": "NET 2026 - Network_Perimeter-2",
       "CVSSv3": 10.0,
       "ReadyForRetest": "No",
       "Created": "2026-07-26",
@@ -264,8 +264,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 2
     },
     {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "ProjectCode": "SI 2026 - Network_Perimeter",
+      "ProjectName": "NET 2026 - Network_Perimeter",
+      "ProjectCode": "NET 2026 - Network_Perimeter",
       "ProjectStartDate": "2026-07-14",
       "ProjectEndDate": "2026-07-25",
       "FindingName": "SSH Protocol Version 1 Enabled on Jump Host",
@@ -279,7 +279,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-09-10T09:00:00.000Z",
       "FindingID": "7b8406ff627737e5b413d151",
-      "AlternateID": "SI 2026 - Network_Perimeter-3",
+      "AlternateID": "NET 2026 - Network_Perimeter-3",
       "CVSSv3": 7.8,
       "ReadyForRetest": "No",
       "Created": "2026-07-26",
@@ -287,8 +287,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 1
     },
     {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "ProjectCode": "SI 2026 - Network_Perimeter",
+      "ProjectName": "NET 2026 - Network_Perimeter",
+      "ProjectCode": "NET 2026 - Network_Perimeter",
       "ProjectStartDate": "2026-07-14",
       "ProjectEndDate": "2026-07-25",
       "FindingName": "Outdated TLS Certificate on Public-Facing API Gateway",
@@ -302,7 +302,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-10-25T09:00:00.000Z",
       "FindingID": "7b8406ff627737e5b413d152",
-      "AlternateID": "SI 2026 - Network_Perimeter-4",
+      "AlternateID": "NET 2026 - Network_Perimeter-4",
       "CVSSv3": 5.3,
       "ReadyForRetest": "Yes",
       "Created": "2026-07-26",
@@ -310,8 +310,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 1
     },
     {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "ProjectCode": "SI 2026 - Network_Perimeter",
+      "ProjectName": "NET 2026 - Network_Perimeter",
+      "ProjectCode": "NET 2026 - Network_Perimeter",
       "ProjectStartDate": "2026-07-14",
       "ProjectEndDate": "2026-07-25",
       "FindingName": "SNMP Community String Set to Default Value",
@@ -325,7 +325,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-10-25T09:00:00.000Z",
       "FindingID": "7b8406ff627737e5b413d153",
-      "AlternateID": "SI 2026 - Network_Perimeter-5",
+      "AlternateID": "NET 2026 - Network_Perimeter-5",
       "CVSSv3": 5.0,
       "ReadyForRetest": "No",
       "Created": "2026-07-26",
@@ -333,8 +333,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 3
     },
     {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "ProjectCode": "SI 2026 - Network_Perimeter",
+      "ProjectName": "NET 2026 - Network_Perimeter",
+      "ProjectCode": "NET 2026 - Network_Perimeter",
       "ProjectStartDate": "2026-07-14",
       "ProjectEndDate": "2026-07-25",
       "FindingName": "Unnecessary Open Ports Exposed on Internet-Facing Firewall",
@@ -348,7 +348,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-11-25T09:00:00.000Z",
       "FindingID": "7b8406ff627737e5b413d154",
-      "AlternateID": "SI 2026 - Network_Perimeter-6",
+      "AlternateID": "NET 2026 - Network_Perimeter-6",
       "CVSSv3": 3.7,
       "ReadyForRetest": "No",
       "Created": "2026-07-26",
@@ -356,8 +356,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 1
     },
     {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "ProjectCode": "SI 2026 - Network_Perimeter",
+      "ProjectName": "NET 2026 - Network_Perimeter",
+      "ProjectCode": "NET 2026 - Network_Perimeter",
       "ProjectStartDate": "2026-07-14",
       "ProjectEndDate": "2026-07-25",
       "FindingName": "Banner Disclosure Reveals Internal Software Versions",
@@ -371,7 +371,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": null,
       "FindingID": "7b8406ff627737e5b413d155",
-      "AlternateID": "SI 2026 - Network_Perimeter-7",
+      "AlternateID": "NET 2026 - Network_Perimeter-7",
       "CVSSv3": null,
       "ReadyForRetest": "No",
       "Created": "2026-07-26",
@@ -379,8 +379,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 0
     },
     {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "ProjectCode": "PCI 2026 - CardData_ENV",
+      "ProjectName": "PAY 2026 - Payment_Systems",
+      "ProjectCode": "PAY 2026 - Payment_Systems",
       "ProjectStartDate": "2026-06-16",
       "ProjectEndDate": "2026-06-27",
       "FindingName": "Cardholder Data Stored in Plaintext in Application Logs",
@@ -394,7 +394,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 44,
       "SLADays": "2026-07-28T08:00:00.000Z",
       "FindingID": "8c9517aa738848f6c524e25a",
-      "AlternateID": "PCI 2026 - CardData_ENV-1",
+      "AlternateID": "PAY 2026 - Payment_Systems-1",
       "CVSSv3": 9.9,
       "ReadyForRetest": "No",
       "Created": "2026-06-28",
@@ -402,8 +402,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 5
     },
     {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "ProjectCode": "PCI 2026 - CardData_ENV",
+      "ProjectName": "PAY 2026 - Payment_Systems",
+      "ProjectCode": "PAY 2026 - Payment_Systems",
       "ProjectStartDate": "2026-06-16",
       "ProjectEndDate": "2026-06-27",
       "FindingName": "PAN Data Accessible Without Proper Access Controls",
@@ -417,7 +417,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 44,
       "SLADays": "2026-07-28T08:00:00.000Z",
       "FindingID": "8c9517aa738848f6c524e25b",
-      "AlternateID": "PCI 2026 - CardData_ENV-2",
+      "AlternateID": "PAY 2026 - Payment_Systems-2",
       "CVSSv3": 9.5,
       "ReadyForRetest": "No",
       "Created": "2026-06-28",
@@ -425,8 +425,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 3
     },
     {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "ProjectCode": "PCI 2026 - CardData_ENV",
+      "ProjectName": "PAY 2026 - Payment_Systems",
+      "ProjectCode": "PAY 2026 - Payment_Systems",
       "ProjectStartDate": "2026-06-16",
       "ProjectEndDate": "2026-06-27",
       "FindingName": "Weak Password Policy on CDE Admin Accounts",
@@ -440,7 +440,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-08-28T08:00:00.000Z",
       "FindingID": "8c9517aa738848f6c524e25c",
-      "AlternateID": "PCI 2026 - CardData_ENV-3",
+      "AlternateID": "PAY 2026 - Payment_Systems-3",
       "CVSSv3": 8.1,
       "ReadyForRetest": "No",
       "Created": "2026-06-28",
@@ -448,8 +448,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 2
     },
     {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "ProjectCode": "PCI 2026 - CardData_ENV",
+      "ProjectName": "PAY 2026 - Payment_Systems",
+      "ProjectCode": "PAY 2026 - Payment_Systems",
       "ProjectStartDate": "2026-06-16",
       "ProjectEndDate": "2026-06-27",
       "FindingName": "Missing Multi-Factor Authentication on Payment Portal",
@@ -463,7 +463,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-08-28T08:00:00.000Z",
       "FindingID": "8c9517aa738848f6c524e25d",
-      "AlternateID": "PCI 2026 - CardData_ENV-4",
+      "AlternateID": "PAY 2026 - Payment_Systems-4",
       "CVSSv3": 7.9,
       "ReadyForRetest": "Yes",
       "Created": "2026-06-28",
@@ -471,8 +471,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 1
     },
     {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "ProjectCode": "PCI 2026 - CardData_ENV",
+      "ProjectName": "PAY 2026 - Payment_Systems",
+      "ProjectCode": "PAY 2026 - Payment_Systems",
       "ProjectStartDate": "2026-06-16",
       "ProjectEndDate": "2026-06-27",
       "FindingName": "Insufficient Logging of Cardholder Data Access Events",
@@ -486,7 +486,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-09-28T08:00:00.000Z",
       "FindingID": "8c9517aa738848f6c524e25e",
-      "AlternateID": "PCI 2026 - CardData_ENV-5",
+      "AlternateID": "PAY 2026 - Payment_Systems-5",
       "CVSSv3": 5.8,
       "ReadyForRetest": "No",
       "Created": "2026-06-28",
@@ -494,8 +494,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 2
     },
     {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "ProjectCode": "PCI 2026 - CardData_ENV",
+      "ProjectName": "PAY 2026 - Payment_Systems",
+      "ProjectCode": "PAY 2026 - Payment_Systems",
       "ProjectStartDate": "2026-06-16",
       "ProjectEndDate": "2026-06-27",
       "FindingName": "Network Segmentation Between CDE and Non-CDE Zones Incomplete",
@@ -509,7 +509,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-09-28T08:00:00.000Z",
       "FindingID": "8c9517aa738848f6c524e25f",
-      "AlternateID": "PCI 2026 - CardData_ENV-6",
+      "AlternateID": "PAY 2026 - Payment_Systems-6",
       "CVSSv3": 6.2,
       "ReadyForRetest": "No",
       "Created": "2026-06-28",
@@ -517,8 +517,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 4
     },
     {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "ProjectCode": "PCI 2026 - CardData_ENV",
+      "ProjectName": "PAY 2026 - Payment_Systems",
+      "ProjectCode": "PAY 2026 - Payment_Systems",
       "ProjectStartDate": "2026-06-16",
       "ProjectEndDate": "2026-06-27",
       "FindingName": "Antivirus Definitions Outdated on CDE Hosts",
@@ -532,7 +532,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-10-28T08:00:00.000Z",
       "FindingID": "8c9517aa738848f6c524e260",
-      "AlternateID": "PCI 2026 - CardData_ENV-7",
+      "AlternateID": "PAY 2026 - Payment_Systems-7",
       "CVSSv3": 2.9,
       "ReadyForRetest": "Yes",
       "Created": "2026-06-28",
@@ -540,8 +540,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 6
     },
     {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "ProjectCode": "PCI 2026 - CardData_ENV",
+      "ProjectName": "PAY 2026 - Payment_Systems",
+      "ProjectCode": "PAY 2026 - Payment_Systems",
       "ProjectStartDate": "2026-06-16",
       "ProjectEndDate": "2026-06-27",
       "FindingName": "PCI DSS Requirement 11.3 - Penetration Testing Scope Not Documented",
@@ -555,7 +555,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": null,
       "FindingID": "8c9517aa738848f6c524e261",
-      "AlternateID": "PCI 2026 - CardData_ENV-8",
+      "AlternateID": "PAY 2026 - Payment_Systems-8",
       "CVSSv3": null,
       "ReadyForRetest": "No",
       "Created": "2026-06-28",
@@ -563,8 +563,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 0
     },
     {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "ProjectCode": "ROPE 2026 - ExtApp_Review",
+      "ProjectName": "APP 2026 - ExtApp_Review",
+      "ProjectCode": "APP 2026 - ExtApp_Review",
       "ProjectStartDate": "2026-07-07",
       "ProjectEndDate": "2026-07-18",
       "FindingName": "Blind SQL Injection in User Search Parameter",
@@ -578,7 +578,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 23,
       "SLADays": "2026-07-19T07:00:00.000Z",
       "FindingID": "9d0628bb849959a7d635f36b",
-      "AlternateID": "ROPE 2026 - ExtApp_Review-1",
+      "AlternateID": "APP 2026 - ExtApp_Review-1",
       "CVSSv3": 9.8,
       "ReadyForRetest": "No",
       "Created": "2026-07-19",
@@ -586,8 +586,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 2
     },
     {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "ProjectCode": "ROPE 2026 - ExtApp_Review",
+      "ProjectName": "APP 2026 - ExtApp_Review",
+      "ProjectCode": "APP 2026 - ExtApp_Review",
       "ProjectStartDate": "2026-07-07",
       "ProjectEndDate": "2026-07-18",
       "FindingName": "Stored Cross-Site Scripting in User Profile Bio Field",
@@ -601,7 +601,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-09-19T07:00:00.000Z",
       "FindingID": "9d0628bb849959a7d635f36c",
-      "AlternateID": "ROPE 2026 - ExtApp_Review-2",
+      "AlternateID": "APP 2026 - ExtApp_Review-2",
       "CVSSv3": 8.0,
       "ReadyForRetest": "No",
       "Created": "2026-07-19",
@@ -609,8 +609,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 1
     },
     {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "ProjectCode": "ROPE 2026 - ExtApp_Review",
+      "ProjectName": "APP 2026 - ExtApp_Review",
+      "ProjectCode": "APP 2026 - ExtApp_Review",
       "ProjectStartDate": "2026-07-07",
       "ProjectEndDate": "2026-07-18",
       "FindingName": "Insecure Direct Object Reference on Document Download Endpoint",
@@ -624,7 +624,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-09-19T07:00:00.000Z",
       "FindingID": "9d0628bb849959a7d635f36d",
-      "AlternateID": "ROPE 2026 - ExtApp_Review-3",
+      "AlternateID": "APP 2026 - ExtApp_Review-3",
       "CVSSv3": 7.6,
       "ReadyForRetest": "No",
       "Created": "2026-07-19",
@@ -632,8 +632,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 1
     },
     {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "ProjectCode": "ROPE 2026 - ExtApp_Review",
+      "ProjectName": "APP 2026 - ExtApp_Review",
+      "ProjectCode": "APP 2026 - ExtApp_Review",
       "ProjectStartDate": "2026-07-07",
       "ProjectEndDate": "2026-07-18",
       "FindingName": "Server-Side Request Forgery in Webhook Configuration",
@@ -647,7 +647,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-10-19T07:00:00.000Z",
       "FindingID": "9d0628bb849959a7d635f36e",
-      "AlternateID": "ROPE 2026 - ExtApp_Review-4",
+      "AlternateID": "APP 2026 - ExtApp_Review-4",
       "CVSSv3": 6.5,
       "ReadyForRetest": "Yes",
       "Created": "2026-07-19",
@@ -655,8 +655,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 1
     },
     {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "ProjectCode": "ROPE 2026 - ExtApp_Review",
+      "ProjectName": "APP 2026 - ExtApp_Review",
+      "ProjectCode": "APP 2026 - ExtApp_Review",
       "ProjectStartDate": "2026-07-07",
       "ProjectEndDate": "2026-07-18",
       "FindingName": "JWT Token Algorithm Confusion Vulnerability",
@@ -670,7 +670,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2026-10-19T07:00:00.000Z",
       "FindingID": "9d0628bb849959a7d635f36f",
-      "AlternateID": "ROPE 2026 - ExtApp_Review-5",
+      "AlternateID": "APP 2026 - ExtApp_Review-5",
       "CVSSv3": 6.1,
       "ReadyForRetest": "No",
       "Created": "2026-07-19",
@@ -678,8 +678,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 2
     },
     {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "ProjectCode": "ROPE 2026 - ExtApp_Review",
+      "ProjectName": "APP 2026 - ExtApp_Review",
+      "ProjectCode": "APP 2026 - ExtApp_Review",
       "ProjectStartDate": "2026-07-07",
       "ProjectEndDate": "2026-07-18",
       "FindingName": "Missing Security Headers on All Application Responses",
@@ -693,7 +693,7 @@ window.ATTACKFORGE_DATA = {
       "DaysOverdue": 0,
       "SLADays": "2027-01-19T07:00:00.000Z",
       "FindingID": "9d0628bb849959a7d635f370",
-      "AlternateID": "ROPE 2026 - ExtApp_Review-6",
+      "AlternateID": "APP 2026 - ExtApp_Review-6",
       "CVSSv3": 3.5,
       "ReadyForRetest": "No",
       "Created": "2026-07-19",
@@ -701,355 +701,8 @@ window.ATTACKFORGE_DATA = {
       "AffectedAssetCount": 0
     },
     {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "ProjectCode": "ROPE 2026 - ExtApp_Review",
+      "ProjectName": "APP 2026 - ExtApp_Review",
+      "ProjectCode": "APP 2026 - ExtApp_Review",
       "ProjectStartDate": "2026-07-07",
       "ProjectEndDate": "2026-07-18",
-      "FindingName": "Verbose Error Messages Expose Stack Traces to End Users",
-      "Severity": "Info",
-      "SeveritySort": 5,
-      "Status": "Open",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SLAStatusSort": 4,
-      "DaysToTarget": null,
-      "DaysOverdue": 0,
-      "SLADays": null,
-      "FindingID": "9d0628bb849959a7d635f371",
-      "AlternateID": "ROPE 2026 - ExtApp_Review-7",
-      "CVSSv3": null,
-      "ReadyForRetest": "No",
-      "Created": "2026-07-19",
-      "StatusUpdated": "2026-07-19",
-      "AffectedAssetCount": 0
-    }
-  ],
-  "findingsList": [
-    {
-      "ProjectName": "USGCI 2026 - IDS_TFB_DI",
-      "FindingName": "iOS Snapshot Caching May Disclose Sensitive Information on Loss of Device",
-      "Severity": "Critical",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 1
-    },
-    {
-      "ProjectName": "USGCI 2026 - IDS_TFB_DI",
-      "FindingName": "iFrame Overlay Attack via Unvalidated Redirect",
-      "Severity": "High",
-      "SLADueDate": "2026-09-04",
-      "SLAStatus": "Within SLA",
-      "SeveritySort": 2
-    },
-    {
-      "ProjectName": "USGCI 2026 - IDS_TFB_DI",
-      "FindingName": "Hardcoded Credentials in Mobile Application Binary",
-      "Severity": "Critical",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 1
-    },
-    {
-      "ProjectName": "USGCI 2026 - IDS_TFB_DI",
-      "FindingName": "finalize() Method Without super.finalize()",
-      "Severity": "Low",
-      "SLADueDate": "2026-11-03",
-      "SLAStatus": "Within SLA",
-      "SeveritySort": 4
-    },
-    {
-      "ProjectName": "USGCI 2026 - IDS_TFB_DI",
-      "FindingName": "Insecure Data Storage in SharedPreferences",
-      "Severity": "Medium",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 3
-    },
-    {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "FindingName": "Unencrypted Sensitive Data Transmission over HTTP",
-      "Severity": "Critical",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 1
-    },
-    {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "FindingName": "Default Credentials on Network Device Management Interface",
-      "Severity": "Critical",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 1
-    },
-    {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "FindingName": "SSH Protocol Version 1 Enabled on Jump Host",
-      "Severity": "High",
-      "SLADueDate": "2026-09-10",
-      "SLAStatus": "Within SLA",
-      "SeveritySort": 2
-    },
-    {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "FindingName": "Outdated TLS Certificate on Public-Facing API Gateway",
-      "Severity": "Medium",
-      "SLADueDate": "2026-10-25",
-      "SLAStatus": "Within SLA",
-      "SeveritySort": 3
-    },
-    {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "FindingName": "SNMP Community String Set to Default Value",
-      "Severity": "Medium",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 3
-    },
-    {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "FindingName": "Unnecessary Open Ports Exposed on Internet-Facing Firewall",
-      "Severity": "Low",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 4
-    },
-    {
-      "ProjectName": "SI 2026 - Network_Perimeter",
-      "FindingName": "Banner Disclosure Reveals Internal Software Versions",
-      "Severity": "Info",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 5
-    },
-    {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "FindingName": "Cardholder Data Stored in Plaintext in Application Logs",
-      "Severity": "Critical",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 1
-    },
-    {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "FindingName": "PAN Data Accessible Without Proper Access Controls",
-      "Severity": "Critical",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 1
-    },
-    {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "FindingName": "Weak Password Policy on CDE Admin Accounts",
-      "Severity": "High",
-      "SLADueDate": "2026-08-28",
-      "SLAStatus": "Within SLA",
-      "SeveritySort": 2
-    },
-    {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "FindingName": "Missing Multi-Factor Authentication on Payment Portal",
-      "Severity": "High",
-      "SLADueDate": "2026-08-28",
-      "SLAStatus": "Within SLA",
-      "SeveritySort": 2
-    },
-    {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "FindingName": "Insufficient Logging of Cardholder Data Access Events",
-      "Severity": "Medium",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 3
-    },
-    {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "FindingName": "Network Segmentation Between CDE and Non-CDE Zones Incomplete",
-      "Severity": "Medium",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 3
-    },
-    {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "FindingName": "Antivirus Definitions Outdated on CDE Hosts",
-      "Severity": "Low",
-      "SLADueDate": "2026-10-28",
-      "SLAStatus": "Within SLA",
-      "SeveritySort": 4
-    },
-    {
-      "ProjectName": "PCI 2026 - CardData_ENV",
-      "FindingName": "PCI DSS Requirement 11.3 - Penetration Testing Scope Not Documented",
-      "Severity": "Info",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 5
-    },
-    {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "FindingName": "Blind SQL Injection in User Search Parameter",
-      "Severity": "Critical",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 1
-    },
-    {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "FindingName": "Stored Cross-Site Scripting in User Profile Bio Field",
-      "Severity": "High",
-      "SLADueDate": "2026-09-19",
-      "SLAStatus": "Within SLA",
-      "SeveritySort": 2
-    },
-    {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "FindingName": "Insecure Direct Object Reference on Document Download Endpoint",
-      "Severity": "High",
-      "SLADueDate": "2026-09-19",
-      "SLAStatus": "Within SLA",
-      "SeveritySort": 2
-    },
-    {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "FindingName": "Server-Side Request Forgery in Webhook Configuration",
-      "Severity": "Medium",
-      "SLADueDate": "2026-10-19",
-      "SLAStatus": "Within SLA",
-      "SeveritySort": 3
-    },
-    {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "FindingName": "JWT Token Algorithm Confusion Vulnerability",
-      "Severity": "Medium",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 3
-    },
-    {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "FindingName": "Missing Security Headers on All Application Responses",
-      "Severity": "Low",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 4
-    },
-    {
-      "ProjectName": "ROPE 2026 - ExtApp_Review",
-      "FindingName": "Verbose Error Messages Expose Stack Traces to End Users",
-      "Severity": "Info",
-      "SLADueDate": null,
-      "SLAStatus": "No SLA Set",
-      "SeveritySort": 5
-    }
-  ],
-  "appOwners": [
-    {
-      "AppID": "APP-001",
-      "AppName": "Customer Portal",
-      "AppType": "Web",
-      "Platform": "React/Node.js",
-      "Description": "Customer self-service portal for bill pay, plan management, and account settings",
-      "Team": "Digital Experience",
-      "Owner": {
-        "Name": "Alex Morgan",
-        "Email": "a.morgan@telecom-corp.com",
-        "Title": "VP of Digital Products"
-      },
-      "TechLead": {
-        "Name": "Ryan Park",
-        "Email": "r.park@telecom-corp.com",
-        "Title": "Senior Engineering Manager"
-      }
-    },
-    {
-      "AppID": "APP-002",
-      "AppName": "Mobile App iOS",
-      "AppType": "iOS Mobile App",
-      "Platform": "Swift/UIKit",
-      "Description": "Native iOS app for customers to manage services, view usage, and contact support",
-      "Team": "Mobile Engineering",
-      "Owner": {
-        "Name": "Jordan Lee",
-        "Email": "j.lee@telecom-corp.com",
-        "Title": "Head of Mobile"
-      },
-      "TechLead": {
-        "Name": "Chris Davis",
-        "Email": "c.davis@telecom-corp.com",
-        "Title": "iOS Lead Engineer"
-      }
-    },
-    {
-      "AppID": "APP-003",
-      "AppName": "Mobile App Android",
-      "AppType": "Android Mobile App",
-      "Platform": "Kotlin/Jetpack",
-      "Description": "Native Android app mirroring iOS feature set for customer mobile management",
-      "Team": "Mobile Engineering",
-      "Owner": {
-        "Name": "Jordan Lee",
-        "Email": "j.lee@telecom-corp.com",
-        "Title": "Head of Mobile"
-      },
-      "TechLead": {
-        "Name": "Jamie Torres",
-        "Email": "j.torres@telecom-corp.com",
-        "Title": "Android Lead Engineer"
-      }
-    },
-    {
-      "AppID": "APP-004",
-      "AppName": "Network Operations Dashboard",
-      "AppType": "Internal Web App",
-      "Platform": "Angular/Java",
-      "Description": "Internal tool for NOC teams to monitor network health, incidents, and SLA metrics",
-      "Team": "Network Operations",
-      "Owner": {
-        "Name": "Sam Rivera",
-        "Email": "s.rivera@telecom-corp.com",
-        "Title": "Director of Network Operations"
-      },
-      "TechLead": {
-        "Name": "Morgan Kim",
-        "Email": "m.kim@telecom-corp.com",
-        "Title": "Platform Engineer"
-      }
-    },
-    {
-      "AppID": "APP-005",
-      "AppName": "Billing API",
-      "AppType": "Backend API",
-      "Platform": "Java/Spring Boot",
-      "Description": "Core billing microservice handling invoice generation, payment processing, and dunning",
-      "Team": "Billing & Revenue",
-      "Owner": {
-        "Name": "Taylor Chen",
-        "Email": "t.chen@telecom-corp.com",
-        "Title": "Director of Revenue Systems"
-      },
-      "TechLead": {
-        "Name": "Drew Johnson",
-        "Email": "d.johnson@telecom-corp.com",
-        "Title": "Backend Architect"
-      }
-    },
-    {
-      "AppID": "APP-006",
-      "AppName": "CRM Platform",
-      "AppType": "Internal Web App",
-      "Platform": "Salesforce/Custom",
-      "Description": "Customer relationship management system used by sales and support agents",
-      "Team": "CRM & Sales Tools",
-      "Owner": {
-        "Name": "Casey Williams",
-        "Email": "c.williams@telecom-corp.com",
-        "Title": "Head of Customer Experience Tech"
-      },
-      "TechLead": {
-        "Name": "Blair Smith",
-        "Email": "b.smith@telecom-corp.com",
-        "Title": "Salesforce Architect"
-      }
-    }
-  ]
-};
+      "FindingName": "Verbose Error Messages

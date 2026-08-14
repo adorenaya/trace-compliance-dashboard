@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Telecom | Compliance Operations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">T</span><span>TRACE<span class="brand-dot">.</span></span></div>
+      <div class="workspace-switcher"><span class="workspace-icon">T</span><span><small>Workspace</small><strong>Telecom Security</strong></span><span class="chevron">⌄</span></div>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <button class="nav-item" data-view="executive"><span class="nav-icon">★</span>Executive summary</button>
+        <button class="nav-item active" data-view="overview"><span class="nav-icon">◈</span>Overview</button>
+        <button class="nav-item" data-view="tests"><span class="nav-icon">⊙</span>Compliance tests<span class="nav-count">4</span></button>
+        <button class="nav-item" data-view="queue"><span class="nav-icon">!</span>Remediation queue<span class="nav-count alert-count">3</span></button>
+        <button class="nav-item" data-view="owners"><span class="nav-icon">◎</span>Owners</button>
+        <button class="nav-item" data-view="activity"><span class="nav-icon">✉</span>Email activity<span class="nav-count alert-count" id="activity-count">0</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <button class="nav-item" data-view="imports"><span class="nav-icon">↥</span>Data imports</button>
+        <button class="nav-item"><span class="nav-icon">?</span>Help &amp; docs</button>
+        <div class="profile"><span class="avatar">SA</span><span><strong>Security Analyst</strong><small>Administrator</small></span><span class="more">•••</span></div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar"><div class="breadcrumb">Compliance operations <span>/</span> <strong id="breadcrumb-label">Overview</strong></div><div class="top-actions"><span class="last-sync">Last synced <strong id="sync-time">just now</strong></span><button class="icon-button" title="Notifications" aria-label="Notifications">♧<i></i></button><button class="avatar small-avatar" title="Open profile">SA</button></div></header>
+
+      <!-- EXECUTIVE SUMMARY VIEW -->
+      <section id="executive-view" class="view">
+        <div class="page-heading">
+          <div><p class="eyebrow">Leadership view</p><h1>Executive summary</h1><p class="lede">All security testing completed across portfolios — SLA status, contracts, and cost at a glance.</p></div>
+        </div>
+        <div class="exec-grid">
+          <article class="stat-card"><span class="stat-label">Total tests</span><strong id="exec-total-tests">4</strong><span class="stat-meta">Across all portfolios</span></article>
+          <article class="stat-card"><span class="stat-label">Open findings</span><strong id="exec-total-findings">0</strong><span class="stat-meta warning-text">Across all tests</span></article>
+          <article class="stat-card"><span class="stat-label">Past SLA</span><strong id="exec-overdue" style="color:#ca664b">0</strong><span class="stat-meta warning-text">Require immediate action</span></article>
+          <article class="stat-card"><span class="stat-label">Due within 3 days</span><strong id="exec-due-soon" style="color:#c69b52">0</strong><span class="stat-meta">At risk of breach</span></article>
+          <article class="stat-card"><span class="stat-label">Total contract value</span><strong id="exec-total-cost" style="font-size:22px">—</strong><span class="stat-meta">Placeholder — confirm with stakeholder</span></article>
+        </div>
+        <div class="section-heading" style="margin-top:36px"><div><p class="eyebrow">Portfolio overview</p><h2>All testing engagements</h2></div></div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Engagement</th>
+                <th>Start date</th>
+                <th>End date</th>
+                <th>Findings</th>
+                <th>SLA status</th>
+                <th>Contract</th>
+                <th>Cost</th>
+                <th>Report sent</th>
+              </tr>
+            </thead>
+            <tbody id="exec-portfolio-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- OVERVIEW VIEW -->
+      <section id="overview-view" class="view active-view">
+        <div class="page-heading"><div><p class="eyebrow">Monday, August 10, 2026</p><h1>Control room</h1><p class="lede">A focused view of your compliance posture and the work that needs a human.</p></div><button class="button secondary" id="import-button"><span>↥</span> Import data</button></div>
+        <div class="overview-grid">
+          <article class="posture-card"><div class="card-kicker"><span>OVERALL POSTURE</span><span class="status-pill good">Healthy</span></div><div class="posture-score"><strong id="overall-score">86</strong><span>/100</span></div><div class="score-bar"><span id="score-bar-fill"></span></div><div class="posture-foot"><span>Severity-weighted score</span><span>4 tests evaluated</span></div></article>
+          <article class="stat-card"><span class="stat-label">Open findings</span><strong id="open-findings">12</strong><span class="stat-meta warning-text">3 need attention today</span><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+          <article class="stat-card"><span class="stat-label">SLA on track</span><strong id="sla-rate">75%</strong><span class="stat-meta success-text">9 of 12 findings</span><div class="ring" aria-label="75 percent on track"><span>75%</span></div></article>
+        </div>
+        <div class="section-heading"><div><p class="eyebrow">Coverage</p><h2>Compliance tests</h2></div><button class="text-button" data-view="tests">View all tests <span>→</span></button></div>
+        <div id="test-grid" class="test-grid"></div>
+        <div class="section-heading queue-heading"><div><p class="eyebrow">Triage first</p><h2>Remediation queue</h2></div><button class="text-button" data-view="queue">Open queue <span>→</span></button></div>
+        <div class="table-wrap"><table><thead><tr><th>Finding</th><th>Test</th><th>Owner</th><th>SLA</th><th>Status</th><th>Contract</th><th>Cost</th><th></th></tr></thead><tbody id="queue-table"></tbody></table></div>
+      </section>
+
+      <!-- DETAIL VIEW -->
+      <section id="detail-view" class="view">
+        <button class="back-button" data-view="overview">← Back to overview</button>
+        <div class="detail-heading">
+          <div><p class="eyebrow" id="detail-eyebrow">Compliance Standard</p><h1 id="detail-title">Security assessment</h1><p class="lede" id="detail-description"></p></div>
+          <div class="detail-score"><span>CONTROL SCORE</span><strong id="detail-score-value">91</strong><span>/ 100</span></div>
+        </div>
+        <div class="detail-layout">
+          <div>
+            <div class="panel control-summary">
+              <div class="panel-title"><h2>Test summary</h2><span id="detail-status" class="status-pill good">Healthy</span></div>
+              <div class="detail-metrics">
+                <div><span>Findings evaluated</span><strong id="detail-controls">48</strong></div>
+                <div><span>Closed</span><strong id="detail-passed">44</strong></div>
+                <div><span>Open findings</span><strong id="detail-open">4</strong></div>
+              </div>
+              <div class="detail-progress"><span><b id="detail-progress-label">92%</b> posture score</span><div class="score-bar"><span id="detail-progress-fill"></span></div></div>
+            </div>
+            <div class="panel findings-panel">
+              <div class="panel-title"><div><h2>Findings</h2><p>Issues discovered in the latest export.</p></div><span class="run-date">Imported Aug 10, 2026</span></div>
+              <div id="detail-findings"></div>
+            </div>
+          </div>
+          <aside class="panel side-panel">
+            <div class="panel-title"><h2>Test settings</h2><span class="settings-icon">⚙</span></div>
+            <div class="settings-row"><span>Standard</span><strong id="detail-standard">Compliance Standard</strong></div>
+            <div class="settings-row"><span>Source</span><strong>JSON Export</strong></div>
+            <div class="settings-row"><span>Start date</span><strong id="detail-start-date">—</strong></div>
+            <div class="settings-row"><span>End date</span><strong id="detail-end-date">—</strong></div>
+            <div class="settings-row"><span>Default SLA</span><strong id="detail-sla">14 days</strong></div>
+            <div class="settings-row"><span>Project status</span><strong>Completed</strong></div>
+            <div class="settings-row"><span>Contract</span><strong id="detail-contract">—</strong></div>
+            <div class="settings-row"><span>Cost</span><strong id="detail-cost">—</strong></div>
+            <button class="button secondary full-width">Edit test settings</button>
+          </aside>
+        </div>
+      </section>
+
+      <section id="imports-view" class="view"><div class="page-heading"><div><p class="eyebrow">Bring your own data</p><h1>Data imports</h1><p class="lede">Load a scan export and the owner directory that powers routing.</p></div></div><div class="import-grid"><div class="panel import-card"><div class="upload-symbol">{ }</div><h2>Compliance results</h2><p>Upload a JSON export with tests, scores, controls, and findings.</p><label class="button primary file-label">Choose JSON <input id="json-file" type="file" accept="application/json,.json"></label><span id="json-file-name" class="file-name">Using demo-results.json</span></div><div class="panel import-card"><div class="upload-symbol">◎</div><h2>Owner directory</h2><p>Upload a CSV spreadsheet with <code>name</code>, <code>email</code>, and optional <code>team</code> columns.</p><label class="button primary file-label">Choose CSV <input id="owner-file" type="file" accept=".csv,text/csv"></label><span id="owner-file-name" class="file-name">Using demo-owners.csv</span></div></div><div class="import-note"><strong>Data stays in this browser.</strong> This prototype parses files locally. Email delivery opens your configured mail client with a filled template.</div></section>
+
+      <section id="tests-view" class="view"><div class="page-heading"><div><p class="eyebrow">All checks</p><h1>Compliance tests</h1><p class="lede">Every standard, its current posture, and the work it has generated.</p></div></div><div id="all-tests-grid" class="test-grid all-tests"></div></section>
+      <section id="queue-view" class="view"><div class="page-heading"><div><p class="eyebrow">Open work</p><h1>Remediation queue</h1><p class="lede">The findings closest to breaching their programmed SLA.</p></div><button class="button primary" id="email-digest">✉ Email queue digest</button></div><div class="table-wrap queue-full"><table><thead><tr><th>Finding</th><th>Test</th><th>Owner</th><th>SLA</th><th>Status</th><th>Contract</th><th>Cost</th><th></th></tr></thead><tbody id="full-queue-table"></tbody></table></div></section>
+      <section id="owners-view" class="view"><div class="page-heading"><div><p class="eyebrow">Routing directory</p><h1>Owners</h1><p class="lede">People assigned to findings from the latest owner spreadsheet.</p></div></div><div class="panel owners-panel" id="owners-list"></div></section>
+      <section id="activity-view" class="view"><div class="page-heading"><div><p class="eyebrow">Outbound follow-through</p><h1>Email activity</h1><p class="lede">Track drafts created from findings and confirm when owners have been contacted.</p></div><button class="button secondary" id="clear-email-activity">Clear activity</button></div><div class="panel activity-panel" id="email-activity-list"></div></section>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="data/attackforge-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

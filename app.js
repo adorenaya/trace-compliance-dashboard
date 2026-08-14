@@ -1,6 +1,6 @@
 // TRACE compliance engine — portfolio demo version
-const attackforge = window.ATTACKFORGE_DATA;
-const appOwners = attackforge.appOwners || [];
+const scanData = window.SCAN_DATA;
+const appOwners = scanData.appOwners || [];
 const owners = appOwners.map(app => ({ name: app.Owner.Name, email: app.Owner.Email, team: app.Team, title: app.Owner.Title, appId: app.AppID, appName: app.AppName, techLead: app.TechLead }));
 const emailStorageKey = 'trace-email-activity';
 const emailActivity = JSON.parse(localStorage.getItem(emailStorageKey) || '[]');
@@ -10,15 +10,7 @@ const projectIcons = ['G', 'N', 'P', 'A'];
 const projectIconClasses = ['icon-ugsi', 'icon-pci', 'icon-soc', 'icon-cis'];
 const TODAY = new Date('2026-08-13T00:00:00Z');
 
-// Map original project names to portfolio-safe display names
-const projectDisplayNames = {
-  'USGCI 2026 - IDS_TFB_DI':    'GCI 2026 - IDS_Review',
-  'SI 2026 - Network_Perimeter': 'NET 2026 - Network_Perimeter',
-  'PCI 2026 - CardData_ENV':     'PAY 2026 - Payment_Systems',
-  'ROPE 2026 - ExtApp_Review':   'APP 2026 - ExtApp_Review'
-};
-
-// Placeholder contract data keyed by display name
+// Placeholder contract data keyed by project name
 const contractPlaceholders = {
   'GCI 2026 - IDS_Review':         { contract: 'MSA-2026-GCI-001', cost: '$48,500' },
   'NET 2026 - Network_Perimeter':  { contract: 'MSA-2026-NET-003', cost: '$62,000' },
@@ -48,13 +40,13 @@ function resolveApplication(finding, projectIndex) {
   return { app, confidence: match ? 'Matched from finding title' : 'Project fallback' };
 }
 
-const buildTestsFromAttackforge = () => attackforge.projects.map((project, index) => {
-  const projectFindings = attackforge.findings.filter(finding => finding.ProjectName === project.ProjectName);
+const buildTestsFromScanData = () => scanData.projects.map((project, index) => {
+  const projectFindings = scanData.findings.filter(finding => finding.ProjectName === project.ProjectName);
   const score = projectPosture(project);
-  const displayName = projectDisplayNames[project.ProjectName] || project.ProjectName;
+  const displayName = project.ProjectName;
   const contract = contractPlaceholders[displayName] || { contract: 'TBD', cost: 'TBD' };
   return {
-    id: `attackforge-${index}`,
+    id: `scanData-${index}`,
     name: displayName,
     label: `${project.ProjectStatus} security assessment`,
     icon: projectIcons[index % projectIcons.length],
@@ -96,7 +88,7 @@ const buildTestsFromAttackforge = () => attackforge.projects.map((project, index
   };
 });
 
-let tests = buildTestsFromAttackforge();
+let tests = buildTestsFromScanData();
 
 const getTest = id => tests.find(test => test.id === id);
 const initials = name => name.split(' ').map(part => part[0]).join('').slice(0, 2);

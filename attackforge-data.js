@@ -945,55 +945,55 @@ window.ATTACKFORGE_DATA = {
   "appOwners": [
     {
       "AppID": "APP-001",
-      "AppName": "MyAccount Portal",
+      "AppName": "Customer Portal",
       "AppType": "Web",
       "Platform": "React/Node.js",
       "Description": "Customer self-service portal for bill pay, plan management, and account settings",
       "Team": "Digital Experience",
       "Owner": {
-        "Name": "Sandra Okafor",
-        "Email": "s.okafor@usgci-telecom.com",
+        "Name": "Alex Morgan",
+        "Email": "a.morgan@telecom-corp.com",
         "Title": "VP of Digital Products"
       },
       "TechLead": {
-        "Name": "Marcus Chen",
-        "Email": "m.chen@usgci-telecom.com",
+        "Name": "Ryan Park",
+        "Email": "r.park@telecom-corp.com",
         "Title": "Senior Engineering Manager"
       }
     },
     {
       "AppID": "APP-002",
-      "AppName": "TelcoMobile iOS",
+      "AppName": "Mobile App iOS",
       "AppType": "iOS Mobile App",
       "Platform": "Swift/UIKit",
       "Description": "Native iOS app for customers to manage services, view usage, and contact support",
       "Team": "Mobile Engineering",
       "Owner": {
-        "Name": "Priya Nair",
-        "Email": "p.nair@usgci-telecom.com",
+        "Name": "Jordan Lee",
+        "Email": "j.lee@telecom-corp.com",
         "Title": "Head of Mobile"
       },
       "TechLead": {
-        "Name": "James Obi",
-        "Email": "j.obi@usgci-telecom.com",
+        "Name": "Chris Davis",
+        "Email": "c.davis@telecom-corp.com",
         "Title": "iOS Lead Engineer"
       }
     },
     {
       "AppID": "APP-003",
-      "AppName": "TelcoMobile Android",
+      "AppName": "Mobile App Android",
       "AppType": "Android Mobile App",
       "Platform": "Kotlin/Jetpack",
       "Description": "Native Android app mirroring iOS feature set for customer mobile management",
       "Team": "Mobile Engineering",
       "Owner": {
-        "Name": "Priya Nair",
-        "Email": "p.nair@usgci-telecom.com",
+        "Name": "Jordan Lee",
+        "Email": "j.lee@telecom-corp.com",
         "Title": "Head of Mobile"
       },
       "TechLead": {
-        "Name": "Aisha Kamara",
-        "Email": "a.kamara@usgci-telecom.com",
+        "Name": "Jamie Torres",
+        "Email": "j.torres@telecom-corp.com",
         "Title": "Android Lead Engineer"
       }
     },
@@ -1005,31 +1005,31 @@ window.ATTACKFORGE_DATA = {
       "Description": "Internal tool for NOC teams to monitor network health, incidents, and SLA metrics",
       "Team": "Network Operations",
       "Owner": {
-        "Name": "Derek Hollis",
-        "Email": "d.hollis@usgci-telecom.com",
+        "Name": "Sam Rivera",
+        "Email": "s.rivera@telecom-corp.com",
         "Title": "Director of Network Operations"
       },
       "TechLead": {
-        "Name": "Yuki Tanaka",
-        "Email": "y.tanaka@usgci-telecom.com",
+        "Name": "Morgan Kim",
+        "Email": "m.kim@telecom-corp.com",
         "Title": "Platform Engineer"
       }
     },
     {
       "AppID": "APP-005",
-      "AppName": "Billing Engine API",
+      "AppName": "Billing API",
       "AppType": "Backend API",
       "Platform": "Java/Spring Boot",
       "Description": "Core billing microservice handling invoice generation, payment processing, and dunning",
       "Team": "Billing & Revenue",
       "Owner": {
-        "Name": "Carmen Reyes",
-        "Email": "c.reyes@usgci-telecom.com",
+        "Name": "Taylor Chen",
+        "Email": "t.chen@telecom-corp.com",
         "Title": "Director of Revenue Systems"
       },
       "TechLead": {
-        "Name": "Tom Adeyemi",
-        "Email": "t.adeyemi@usgci-telecom.com",
+        "Name": "Drew Johnson",
+        "Email": "d.johnson@telecom-corp.com",
         "Title": "Backend Architect"
       }
     },
@@ -1041,13 +1041,13 @@ window.ATTACKFORGE_DATA = {
       "Description": "Customer relationship management system used by sales and support agents",
       "Team": "CRM & Sales Tools",
       "Owner": {
-        "Name": "Linda Park",
-        "Email": "l.park@usgci-telecom.com",
+        "Name": "Casey Williams",
+        "Email": "c.williams@telecom-corp.com",
         "Title": "Head of Customer Experience Tech"
       },
       "TechLead": {
-        "Name": "Raj Patel",
-        "Email": "r.patel@usgci-telecom.com",
+        "Name": "Blair Smith",
+        "Email": "b.smith@telecom-corp.com",
         "Title": "Salesforce Architect"
       }
     }
